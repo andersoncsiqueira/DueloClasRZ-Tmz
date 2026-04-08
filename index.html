@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TMZ x RZ</title>
+    <meta
+      name="description"
+      content="Agenda e placar do confronto entre TMZ e RZ"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero__overlay"></div>
+        <div class="hero__content container">
+          <p class="eyebrow">Confronto Especial</p>
+          <h1 class="hero__title">TMZ x RZ</h1>
+          <p class="hero__subtitle">
+            Agenda oficial dos confrontos, placar acumulado por vitórias e
+            acompanhamento da disputa em tempo real.
+          </p>
+
+          <section class="scoreboard" aria-label="Placar geral do confronto">
+            <article class="scoreboard__team scoreboard__team--tmz">
+              <span class="scoreboard__label">TMZ</span>
+              <strong id="score-tmz" class="scoreboard__value">0</strong>
+            </article>
+
+            <div class="scoreboard__center">
+              <span class="scoreboard__versus">VS</span>
+              <span id="score-status" class="scoreboard__status">Aguardando resultados</span>
+            </div>
+
+            <article class="scoreboard__team scoreboard__team--rz">
+              <span class="scoreboard__label">RZ</span>
+              <strong id="score-rz" class="scoreboard__value">0</strong>
+            </article>
+          </section>
+        </div>
+      </header>
+
+      <main class="container main-content">
+        <section class="summary-grid" aria-label="Resumo geral">
+          <article class="summary-card">
+            <span class="summary-card__label">Confrontos</span>
+            <strong id="summary-total-matches" class="summary-card__value">0</strong>
+            <span class="summary-card__hint">Total de séries cadastradas</span>
+          </article>
+
+          <article class="summary-card">
+            <span class="summary-card__label">Finalizados</span>
+            <strong id="summary-finished" class="summary-card__value">0</strong>
+            <span class="summary-card__hint">Séries com resultado completo</span>
+          </article>
+
+          <article class="summary-card">
+            <span class="summary-card__label">Pendentes</span>
+            <strong id="summary-pending" class="summary-card__value">0</strong>
+            <span class="summary-card__hint">Séries aguardando resultado</span>
+          </article>
+
+          <article class="summary-card">
+            <span class="summary-card__label">Jogos disputados</span>
+            <strong id="summary-games-played" class="summary-card__value">0</strong>
+            <span class="summary-card__hint">Partidas individuais já jogadas</span>
+          </article>
+        </section>
+
+        <section class="controls" aria-label="Filtros de confrontos">
+          <div class="controls__header">
+            <div>
+              <p class="section-tag">Agenda</p>
+              <h2 class="section-title">Confrontos por data</h2>
+            </div>
+            <p class="controls__text">
+              Filtre por modalidade para visualizar rapidamente cada bloco do evento.
+            </p>
+          </div>
+
+          <div class="filter-group" role="group" aria-label="Filtrar por modalidade">
+            <button class="filter-button is-active" type="button" data-filter="all">
+              Todos
+            </button>
+            <button class="filter-button" type="button" data-filter="x1">x1</button>
+            <button class="filter-button" type="button" data-filter="x2">x2</button>
+            <button class="filter-button" type="button" data-filter="x3">x3</button>
+            <button class="filter-button" type="button" data-filter="x4">x4</button>
+          </div>
+        </section>
+
+        <section class="schedule-section" aria-labelledby="schedule-title">
+          <div class="schedule-section__header">
+            <div>
+              <p class="section-tag">Programação</p>
+              <h2 id="schedule-title" class="section-title">Agenda completa</h2>
+            </div>
+            <span id="schedule-counter" class="schedule-counter">0 confrontos</span>
+          </div>
+
+          <div id="schedule-list" class="schedule-list">
+            <article class="day-block">
+              <header class="day-block__header">
+                <h3 class="day-block__title">14/04/2026</h3>
+                <span class="day-block__count">1 confronto</span>
+              </header>
+
+              <div class="match-list">
+                <article class="match-card match-card--pending">
+                  <div class="match-card__top">
+                    <span class="match-card__time">20:30</span>
+                    <span class="match-card__type">x1</span>
+                    <span class="match-card__status">Pendente</span>
+                  </div>
+
+                  <div class="match-card__body">
+                    <div class="match-card__team">
+                      <span class="match-card__team-name">Allien</span>
+                      <span class="match-card__team-clan">TMZ</span>
+                    </div>
+
+                    <div class="match-card__versus">vs</div>
+
+                    <div class="match-card__team">
+                      <span class="match-card__team-name">Icaro</span>
+                      <span class="match-card__team-clan">RZ</span>
+                    </div>
+                  </div>
+
+                  <div class="match-card__bottom">
+                    <div class="match-card__score-box">
+                      <span class="match-card__score-label">Placar</span>
+                      <strong class="match-card__score-value">0 x 0</strong>
+                    </div>
+
+                    <div class="match-card__points-box">
+                      <span class="match-card__score-label">Pontos</span>
+                      <strong class="match-card__score-value">TMZ +0 | RZ +0</strong>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container site-footer__content">
+          <p class="site-footer__title">TMZ x RZ</p>
+          <p class="site-footer__text">
+            Página estática para agenda, acompanhamento e pontuação dos confrontos.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
