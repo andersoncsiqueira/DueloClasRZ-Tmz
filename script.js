@@ -57,10 +57,8 @@ function renderSummary() {
 
   document.getElementById("summary-total-matches").textContent = total;
   document.getElementById("summary-finished").textContent = finished;
-  document.getElementById("summary-pending").textContent =
-    total - finished;
-  document.getElementById("summary-games-played").textContent =
-    gamesPlayed;
+  document.getElementById("summary-pending").textContent = total - finished;
+  document.getElementById("summary-games-played").textContent = gamesPlayed;
 }
 
 function renderScoreboard() {
@@ -100,7 +98,6 @@ function renderSchedule() {
     matches = matches.filter((m) => m.type === state.filter);
   }
 
-  // agrupar por data
   const grouped = {};
 
   matches.forEach((m) => {
@@ -108,7 +105,11 @@ function renderSchedule() {
     grouped[m.date].push(m);
   });
 
-  const dates = Object.keys(grouped).sort();
+  const dates = Object.keys(grouped).sort((a, b) => {
+    const dateA = parseLocalDate(a);
+    const dateB = parseLocalDate(b);
+    return dateA - dateB;
+  });
 
   let totalVisible = 0;
 
@@ -141,9 +142,8 @@ function renderSchedule() {
     container.appendChild(dayBlock);
   });
 
-  document.getElementById(
-    "schedule-counter"
-  ).textContent = `${totalVisible} confrontos`;
+  document.getElementById("schedule-counter").textContent =
+    `${totalVisible} confrontos`;
 }
 
 function createMatchCard(match) {
@@ -243,7 +243,11 @@ function getClan(teamIds) {
   return player?.clan;
 }
 
+function parseLocalDate(dateString) {
+  const [year, month, day] = dateString.split("-").map(Number);
+  return new Date(year, month - 1, day);
+}
+
 function formatDate(date) {
-  const d = new Date(date);
-  return d.toLocaleDateString("pt-BR");
+  return parseLocalDate(date).toLocaleDateString("pt-BR");
 }
