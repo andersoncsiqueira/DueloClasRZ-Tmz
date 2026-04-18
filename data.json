@@ -52,7 +52,7 @@
     { "id": 8, "date": "2026-04-16", "time": "20:30", "type": "x1", "teamA": ["lopes"], "teamB": ["rcordioli"], "games": ["A","A","A"] },
     { "id": 9, "date": "2026-04-30", "time": "20:30", "type": "x1", "teamA": ["colodetti"], "teamB": ["italo"], "games": [] },
     { "id": 10, "date": "2026-04-23", "time": "20:30", "type": "x1", "teamA": ["pecanha"], "teamB": ["sharkao"], "games": [] },
-    { "id": 25, "date": "2026-04-17", "time": "20:30", "type": "x1", "teamA": ["stringerxt"], "teamB": ["tevoss1234"], "games": [] },
+    { "id": 25, "date": "2026-04-17", "time": "20:30", "type": "x1", "teamA": ["stringerxt"], "teamB": ["tevoss1234"], "games": ["B","B","B"] },
 
     { "id": 11, "date": "2026-04-18", "time": "14:00", "type": "x2", "teamA": ["noda","jx"], "teamB": ["arch","joaozinho"], "games": [] },
     { "id": 12, "date": "2026-04-19", "time": "14:00", "type": "x2", "teamA": ["mcgayver","pecanha"], "teamB": ["joao_paulo","ghengis_cano"], "games": [] },
