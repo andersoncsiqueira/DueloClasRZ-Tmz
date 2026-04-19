@@ -19,6 +19,7 @@
     { "id": "famo_sain", "name": "Famo Sain", "clan": "RZ" },
     { "id": "rj_renan", "name": "Rj.Renan", "clan": "RZ" },
     { "id": "tevoss1234", "name": "tevoss1234", "clan": "RZ" },
+       { "id": "[RZ] tk_puxa", "name": "[RZ] Tk_puxa", "clan": "RZ" },
 
     { "id": "noda", "name": "Noda", "clan": "TMZ" },
     { "id": "jx", "name": "JX", "clan": "TMZ" },
@@ -57,13 +58,13 @@
     { "id": 11, "date": "2026-04-18", "time": "14:00", "type": "x2", "teamA": ["noda","jx"], "teamB": ["arch","joaozinho"], "games": [] },
     { "id": 12, "date": "2026-04-19", "time": "14:00", "type": "x2", "teamA": ["mcgayver","pecanha"], "teamB": ["joao_paulo","ghengis_cano"], "games": [] },
     { "id": 13, "date": "2026-04-18", "time": "15:00", "type": "x2", "teamA": ["zanat","colodetti"], "teamB": ["magro","mata_leproso"], "games": [] },
-    { "id": 14, "date": "2026-04-18", "time": "14:00", "type": "x2", "teamA": ["secutor","treble"], "teamB": ["de_volta_ao_jogo","sharkao"], "games": [] },
+    { "id": 14, "date": "2026-04-18", "time": "14:00", "type": "x2", "teamA": ["secutor","treble"], "teamB": ["de_volta_ao_jogo","sharkao"], "games": ["B","A"] },
     { "id": 15, "date": "2026-04-19", "time": "15:00", "type": "x2", "teamA": ["drewmolidor","razi"], "teamB": ["icaro","molecagem100"], "games": [] },
     { "id": 16, "date": "2026-04-19", "time": "16:00", "type": "x2", "teamA": ["vegass","snatch"], "teamB": ["kahjhin","james_jua"], "games": [] },
 
     { "id": 17, "date": "2026-04-25", "time": "18:00", "type": "x3", "teamA": ["noda","jx","piccolo"], "teamB": ["arch","joaozinho","kahjhin"], "games": [] },
     { "id": 18, "date": "2026-04-25", "time": "14:00", "type": "x3", "teamA": ["secutor","mcgayver","vegass"], "teamB": ["de_volta_ao_jogo","joao_paulo","citrato"], "games": [] },
-    { "id": 19, "date": "2026-04-18", "time": "16:00", "type": "x3", "teamA": ["zanat","razi","drewmolidor"], "teamB": ["icaro","mata_leproso","magro"], "games": [] },
+    { "id": 19, "date": "2026-04-18", "time": "16:00", "type": "x3", "teamA": ["zanat","razi","drewmolidor"], "teamB": ["icaro","[RZ] tk_puxa","magro"], "games": ["A","A"] },
     { "id": 20, "date": "2026-04-26", "time": "14:00", "type": "x3", "teamA": ["snatch","treble","pecanha"], "teamB": ["james_jua","sharkao","famo_sain"], "games": [] },
 
     { "id": 21, "date": "2026-05-03", "time": "18:00", "type": "x4", "teamA": ["noda","jx","piccolo","allien"], "teamB": ["arch","joaozinho","kahjhin","icaro"], "games": [] },
