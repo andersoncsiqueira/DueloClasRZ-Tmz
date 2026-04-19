@@ -46,7 +46,7 @@
     { "id": 1, "date": "2026-04-15", "time": "20:30", "type": "x1", "teamA": ["noda"], "teamB": ["arch"], "games": ["A","A","A"] },
     { "id": 2, "date": "2026-04-24", "time": "20:30", "type": "x1", "teamA": ["jx"], "teamB": ["joaozinho"], "games": [] },
     { "id": 3, "date": "2026-05-01", "time": "20:30", "type": "x1", "teamA": ["piccolo"], "teamB": ["kahjhin"], "games": [] },
-    { "id": 4, "date": "2026-04-14", "time": "20:30", "type": "x1", "teamA": ["allien"], "teamB": ["icaro"], "games": ["A","A"] },
+    { "id": 4, "date": "2026-04-14", "time": "20:30", "type": "x1", "teamA": ["allien"], "teamB": ["icaro"], "games": ["A","A","A"] },
     { "id": 5, "date": "2026-04-28", "time": "20:30", "type": "x1", "teamA": ["jozuh"], "teamB": ["citrato"], "games": [] },
     { "id": 6, "date": "2026-04-22", "time": "20:30", "type": "x1", "teamA": ["batera"], "teamB": ["de_volta_ao_jogo"], "games": [] },
     { "id": 7, "date": "2026-04-29", "time": "20:30", "type": "x1", "teamA": ["vegass"], "teamB": ["ja_hera"], "games": [] },
