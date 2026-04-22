@@ -58,7 +58,7 @@
     { "id": 11, "date": "2026-05-02", "time": "17:00", "type": "x2", "teamA": ["noda","jx"], "teamB": ["arch","joaozinho"], "games": [] },
     { "id": 12, "date": "2026-05-03", "time": "14:00", "type": "x2", "teamA": ["mcgayver","pecanha"], "teamB": ["joao_paulo","ghengis_cano"], "games": [] },
     { "id": 13, "date": "2026-04-26", "time": "14:00", "type": "x2", "teamA": ["razi","colodetti"], "teamB": ["magro","mata_leproso"], "games": [] },
-    { "id": 14, "date": "2026-04-18", "time": "14:00", "type": "x2", "teamA": ["secutor","treble"], "teamB": ["de_volta_ao_jogo","sharkao"], "games": ["B","A"] },
+    { "id": 14, "date": "2026-04-18", "time": "14:00", "type": "x2", "teamA": ["secutor","treble"], "teamB": ["de_volta_ao_jogo","sharkao"], "games": ["B","A","A"] },
     { "id": 15, "date": "2026-04-19", "time": "15:00", "type": "x2", "teamA": ["drewmolidor","zanat"], "teamB": ["icaro","mata_leproso"], "games": ["B","B"] },
     { "id": 16, "date": "2026-04-26", "time": "16:00", "type": "x2", "teamA": ["vegass","snatch"], "teamB": ["kahjhin","james_jua"], "games": [] },
 
