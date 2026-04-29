@@ -20,6 +20,7 @@
     { "id": "rj_renan", "name": "Rj.Renan", "clan": "RZ" },
     { "id": "tevoss1234", "name": "tevoss1234", "clan": "RZ" },
        { "id": "[RZ] tk_puxa", "name": "[RZ] Tk_puxa", "clan": "RZ" },
+        { "id": "raduky", "name": "Raduky", "clan": "RZ" },
 
     { "id": "noda", "name": "Noda", "clan": "TMZ" },
     { "id": "jx", "name": "JX", "clan": "TMZ" },
@@ -47,7 +48,7 @@
     { "id": 2, "date": "2026-04-24", "time": "20:30", "type": "x1", "teamA": ["jx"], "teamB": ["joaozinho"], "games": [] },
     { "id": 3, "date": "2026-05-01", "time": "20:30", "type": "x1", "teamA": ["piccolo"], "teamB": ["kahjhin"], "games": [] },
     { "id": 4, "date": "2026-04-14", "time": "20:30", "type": "x1", "teamA": ["allien"], "teamB": ["icaro"], "games": ["A","A","A"] },
-    { "id": 5, "date": "2026-04-28", "time": "20:30", "type": "x1", "teamA": ["jozuh"], "teamB": ["citrato"], "games": [] },
+    { "id": 5, "date": "2026-04-28", "time": "20:30", "type": "x1", "teamA": ["jozuh"], "teamB": ["raduky"], "games": ["A","A","A"] },
     { "id": 6, "date": "2026-04-22", "time": "20:30", "type": "x1", "teamA": ["batera"], "teamB": ["de_volta_ao_jogo"], "games": ["A","B","B"] },
     { "id": 7, "date": "2026-04-29", "time": "20:30", "type": "x1", "teamA": ["vegass"], "teamB": ["ja_hera"], "games": [] },
     { "id": 8, "date": "2026-04-16", "time": "20:30", "type": "x1", "teamA": ["lopes"], "teamB": ["rcordioli"], "games": ["A","A","A"] },
